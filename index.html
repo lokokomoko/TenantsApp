@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center><h1>Tenants Data</h1></center>
+    <table class="tenantsTable">
+      <thead>
+        <tr>
+          <th width="16%">Date</th>
+          <th>Electricity Reading</th>
+          <th>Electricy Consumed</th>
+          <th>Electricity to Peso</th>
+          <th>Water Reading</th>
+          <th>Water Consumed</th>
+          <th>Total Payment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January 8, 2020</td>
+          <td>15101</td>
+          <td>43</td>
+          <td>645</td>
+          <td>100</td>
+          <td>100</td>
+          <td>745</td>
+        </tr>
+        <tr>
+          <td>February 13, 2020</td>
+          <td>15186</td>
+          <td>85</td>
+          <td>1275</td>
+          <td>100</td>
+          <td>100</td>
+          <td>1375</td>
+        </tr>
+        <tr>
+          <td>March 14, 2020</td>
+          <td>15259</td>
+          <td>73</td>
+          <td>1095</td>
+          <td>100</td>
+          <td>100</td>
+          <td>1195</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="addReadingForm">
+      <div class="formTitle">Add Reading Form</div>
+      <form action="">
+        <div class="formGroup">
+          <label for="">Date</label>
+          <input type="text" placeholder="Date" />
+        </div>
+        <div class="formGroup">
+          <label for="">Meter Reading</label>
+          <input type="text" placeholder="Meter Reading" />
+        </div>
+        <div class="formGroup">
+          <label for="">Water Reading</label>
+          <input type="text" placeholder="Water Reading" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

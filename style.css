@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.tenantsTable {
+  margin: 0 auto;
+  width: 800px;
+  border-top: solid 1px #000;
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  border-spacing: 0px;
+}
+
+.tenantsTable th {
+  text-align: center;
+  border-right: solid 1px #000;
+}
+
+.tenantsTable td {
+  text-align: center;
+  border-top: solid 1px #000;
+  border-right: solid 1px #000;
+  font-size: 15px;
+}
+
+.addReadingForm {
+  width: 600px;
+  margin: 0 auto;
+}
